@@ -1,0 +1,38 @@
+# WordPress core & default
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/plugins/*
+!/wp-content/plugins/.gitkeep
+/wp-content/themes/*
+!/wp-content/themes/.gitkeep
+
+# Chỉ giữ lại theme và plugin bạn tự viết hoặc muốn version control
+# Ví dụ nếu theme của bạn tên là "mamnon-theme", bỏ comment dòng dưới
+# !/wp-content/themes/mamnon-theme/
+
+# Các file cấu hình nhạy cảm
+/wp-config.php
+/.env
+*.log
+/.htaccess
+
+# Cache & backup
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/upgrade/
+/wp-content/ai1wm-backups/
+
+# IDE & OS files
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+*.swp
+
+# Node modules, vendor nếu có
+/node_modules/
+/vendor/
+
+# File lock git (sẽ xóa sau)
+.git/index.lock
