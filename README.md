@@ -20,7 +20,7 @@ Dự án xây dựng website cho trường mầm non, gồm các chức năng:
 ## Hướng dẫn cài đặt
 
 1. Clone project:
-   git clone https://github.com/tenban/mam-non-wordpress.git
+   git clone https://github.com/thury04/mam-non-wordpress.git
 
 2. Tạo database mới:
    Import file database từ thư mục /database (nếu có)
